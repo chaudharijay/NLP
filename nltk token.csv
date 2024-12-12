@@ -1,0 +1,5 @@
+Tokenizer,Purpose,Key Behavior,Example
+Word Tokenizer,Breaks text into words,Splits text based on whitespace and punctuation,"This is a sample sentence. -> ['This', 'is', 'a', 'sample', 'sentence', '.']"
+Sentence Tokenizer,Divides text into sentences,Identifies sentence boundaries based on punctuation,"This is the first sentence. This is the second sentence. -> ['This is the first sentence.', 'This is the second sentence.']"
+Tweet Tokenizer,Tokenizes tweets,"Handles Twitter-specific features like hashtags, mentions, and emoticons","RT @user: This is a #great tweet! :) -> ['RT', '@user', ':', 'This', 'is', 'a', '#great', 'tweet', '!', ':)']"
+Punkt Sentence Tokenizer,Sentence tokenization,Employs machine learning for accurate sentence boundary detection,This is a complex sentence with multiple clauses. -> ['This is a complex sentence with multiple clauses.']
